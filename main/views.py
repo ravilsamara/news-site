@@ -13,4 +13,3 @@ def contact(request):
     return render(request, 'main/about.html')
 
 
-

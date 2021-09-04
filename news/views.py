@@ -22,3 +22,7 @@ def create(request):
     form = ArticlesForm()
     data = {'form': form, 'error': error}
     return render(request, 'news/create.html', data)
+
+
+def main():
+    pass
